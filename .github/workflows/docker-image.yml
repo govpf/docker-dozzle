@@ -13,7 +13,7 @@ jobs:
 #      matrix:
 #        versions: [6]
     env:
-      repo: "govpf/hello" # Please don't forget to create the repo on Docker Hub
+      repo: "govpf/dozzle" # Please don't forget to create the repo on Docker Hub
     steps:
 
     - name: Checkout
