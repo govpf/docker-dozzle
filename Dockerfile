@@ -1,6 +1,6 @@
 # Build assets
-#FROM govpf/node:16 as node
-FROM test_node18 as node
+FROM govpf/node:16 as node
+#FROM test_node18 as node
 
 # RUN git clone --depth 1 --branch v3.13.1 https://github.com/amir20/dozzle.git 
 RUN git clone --depth 1 --branch v3.13.1 https://github.com/amir20/dozzle.git 
