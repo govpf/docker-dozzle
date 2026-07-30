@@ -1,8 +1,8 @@
-FROM amir20/dozzle:v3.13.1 as official
+FROM amir20/dozzle:v10 as official
 
 FROM govpf/alpine:3
 
-ENV PATH /bin
+ENV PATH=/bin
 
 COPY --from=official /dozzle /dozzle
 
